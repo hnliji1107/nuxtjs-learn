@@ -1,17 +1,24 @@
 {
-  "name": "myproject",
+  "name": "nuxtjs-learn",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "nuxtjs learn",
   "author": "lull",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start -p 3001",
+    "start": "nuxt start -p 3000",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hnliji1107/nuxtjs-learn.git"
+  },
+  "keywords": [
+    "nuxtjs",
+    "learn demo"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
     "iview": "^3.1.3",
