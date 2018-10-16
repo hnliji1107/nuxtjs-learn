@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/hello/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
     ]
   },
@@ -51,10 +51,10 @@ module.exports = {
     }
   },
   generate: {
-    dir: 'dist/myapp/hello'
+    dir: 'dist/myapp'
   },
   router: {
-    base: '/hello/'
+    base: '/'
   },
   plugins: [
       {src: '~plugins/iview', ssr: true}

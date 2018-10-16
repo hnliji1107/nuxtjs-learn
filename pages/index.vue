@@ -19,10 +19,10 @@
           order
         </nuxt-link>
         <a
-          href="/hello/personal"
+          href="/personal"
           class="button--grey">personal</a>
         <a
-          href="/hello/account/paymentRecord"
+          href="/account/paymentRecord"
           class="button--grey">paymentRecord</a>
       </div>
     </div>

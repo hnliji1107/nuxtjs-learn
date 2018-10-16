@@ -10,7 +10,7 @@
       </ul>
     </div>
     <div class="links">
-    	<a href="/hello/account/paymentRecord">返回上一页</a>
+    	<a href="/account/paymentRecord">返回上一页</a>
     </div>
   </section>
 </template>
