@@ -1,23 +1,29 @@
-# myproject
+# nuxtjs-learn
+从官网fork过来的代码，并做了一定的改造。
 
-> Nuxt.js project
+## 本地测试
+1. clone代码，进入项目根目录
+2. 运行 `npm run dev`命令，启动服务
+3. 访问`http://localhost:3000`预览demo
 
-## Build Setup
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+## 服务端测试
+1. 搭建node环境，clone代码，进入项目根目录
+1. 运行 `npm start`命令，启动服务
+2. 访问`http://公网ip`预览demo
 
-# serve with hot reload at localhost:3000
-$ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
+## 日志查看
+请到logs目录下查看错误日志和程序中的打印信息。
 
-# generate static project
-$ npm run generate
-```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## 其它说明
+1. 启动nginx服务
+`systemctl restart nginx.service`
+
+2. 下载代码包
+`wget -O nuxtjs-learn.zip https://github.com/hnliji1107/nuxtjs-learn/archive/master.zip`
+
+3. 解压
+`unzip nuxtjs-learn.zip`
 
